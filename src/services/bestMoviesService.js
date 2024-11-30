@@ -23,5 +23,5 @@ export async function deleteBest(imdbId) {
     .from("bestMovies")
     .delete()
     .eq("imdbId", imdbId);
-  console.log(data,error)
+  console.log(error)
 }
